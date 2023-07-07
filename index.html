@@ -1,0 +1,78 @@
+
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="body.css">
+    <body class="lightmode" id="body">
+        <div class="load d-flex align-items-center justify-content-center" id="load">
+            <div class="spaner">
+    
+            </div>
+        </div>
+        <h1 class="text-center text-primary">Our Products</h1>
+    <div class="d-flex justify-content-center ">
+        <button class="bt drakmode" id="mode">Dark</button>
+    </div>
+   
+    
+        <div class="card for" id="form">
+            <div class="popup hid" id="pop">
+                <div class=" d-flex d w-100" id="">
+                    <button class="btn btt btn-danger h-100" id="close">Close</button>
+
+                    <div class="ms-5">please fill missing inputs</div>
+
+
+                </div>
+            </div>
+         <input type="text" class="m-3" id="title" placeholder="title">
+            <div class="row cs  col-lg-12" id="Cost">
+                <input type="text" class="col col-lg-2" id="price" class=" col col-lg-2 title" placeholder="price">
+                <input type="text" id="tax" class="tax col col-lg-2 " placeholder="taxes">
+                <input type="text" id="trancost" class=" col col-lg-2 trancost" placeholder="trancost">
+                <input type="text" id="dis" class=" col col-lg-2 dis" placeholder="discount">
+                <input type="text" id="total" class=" col col-lg-2 total" placeholder="total" >
+
+            </div>
+            <input type="number" id="count" class="m-3" placeholder="count">
+            <input type="text" id="dep" class="m-3" placeholder="department">
+            <input type="text" id="image" class="m-3" placeholder="image-link" >
+            <button class="but btn btn-primary" id="but">create</button>
+
+        </div>
+   
+    <td id="td"></td>
+        <h1 class="text-center text-primary" id="pro" >Our Products</h1>
+
+        <div class="container-fluid">
+            <button  class="hid btn btn-danger w-100 my-3" id="deleteall">delete all</button>
+
+            <div class="row">
+                <table id="table" class="">
+                  
+                    
+           
+                <tbody id="td" class="">
+
+                </tbody>
+                
+
+                </table>
+            
+        </div>
+        
+
+        </div>
+        <script src="js.js"></script>
+        <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(document).ready(function () {
+    $("#but").click(function () {
+    $("#pro").html("lists of the product</b>");
+    });
+   });
+   </script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+input{
+    margin: 0px;
+}
+body{
+
+margin: 0px;    
+background-color: rgb(0, 0, 0);
+position: relative;
+z-index: 1;
+}
+.for{
+    
+    width: 60%;
+    background-color: transparent;
+    padding: 0px;
+    margin: auto;
+    border: gray 1px solid;
+    box-shadow: 0px 0px 20px 0px gray;
+    
+   
+}
+tr{
+    border: 1px rgb(128, 128, 128) solid;
+    box-shadow: 0px 0px 20px 0px gray;
+
+
+}
+td{
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.cs input{
+    width: 17%;
+    margin-left: 22px;
+} 
+.bt{
+    width: 70px;
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 1s;
+}
+.bt:hover{
+    background-color: gray;
+
+}
+.hid{
+    display: none;
+
+    
+}
+span{
+    
+    position: relative;
+    background-color: transparent;
+    width: 100px;
+    top:-1000;
+    z-index: -10;
+}
+.I{
+    background-color: transparent;
+}
+.pop-cont{
+
+}
+p{
+    
+   
+}
+.tn{
+    padding-left: 10px;
+}
+table{
+    background-color: transparent;
+}
+.btnn{
+    background-color: transparent;
+    color: rgb(4, 0, 255);
+    border-top: gray 10px solid ;
+}
+.lightmode{
+    background-color: white;
+    color:black;
+}
+.drakmode{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.btn-arning{
+    background-color: rgb(206, 206, 6);
+    color: black;
+}
+.cl{
+    color: black;
+}
+.td{
+    color: red;
+    font-weight: bolder;
+} 
+.popup{
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.popup .d{
+    width: 50%;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.503);
+    align-content: center;
+    
+}
+.d div{
+    font-weight: bold;
+    align-self: center;
+    color: white;
+    
+}
+.btt{
+    border-radius: 0px;
+}
+.popp{
+    width: 50%;
+    height: 50px;
+    background-color: red;
+    
+}
+
+    
